@@ -1,0 +1,24 @@
+/* src\components\InfoCurso\styles.css */
+
+.infoCurso {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+
+.infoCurso p{
+    background-color: #aaaaaa;
+    border: 1px solid #706e6e;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}    

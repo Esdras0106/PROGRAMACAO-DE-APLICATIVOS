@@ -1,0 +1,28 @@
+/* src\components\InfoAluno\styles.css */
+
+.infoAluno h3{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border: 5px 0;
+}
+
+.infoAluno p{
+    background-color: #aaaaaa;
+    border: 1px solid #706e6e;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}    
+
+.infoAluno {
+    background-color: #ffffff; /* Verde */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
