@@ -6,6 +6,7 @@ const chamarNome = (nome) => `Olá, ${nome}!`;
 
 function App() {
   const [contador, setContador] = useState(10);
+  const [guardarContagem, setGuardarContagem] = useState([]);
   const [numero, setNumero] = useState(1); // passo inicial
  
 
@@ -41,11 +42,10 @@ function App() {
           />
         </label>
 
-        <h3> QUESTÃO 1 - Olá React ! </h3>
-        <p> QUESTÃO 2 - {chamarNome("Esdras")} </p>
+        <h3> QUESTÕES - {chamarNome("Esdras")} </h3>
         <div className="app-contador">
           
-        <p name= 'q3'>  Contador: <h2> {contador}</h2> </p>
+        <h3 name= 'q3'>  Contador: <h2> {contador}</h2> </h3>
         <button name= 'btn1' onClick={incrementarContador}>Incrementar</button>
         <button name= 'btn2' onClick={decrementarContador}>Decrementar</button>
         <h2> Historico </h2>
@@ -55,5 +55,10 @@ function App() {
     </div>
   );
 }
+
+
+
+
+
 
 export default App;
